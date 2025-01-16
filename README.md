@@ -37,8 +37,8 @@ The **Marketplace Builder** is a web application built using **Next.js** and int
     |
 [Third-Party API] --> [Shipment Tracking API]
     |
-
 [Payment Gateway]
+
 🛠️ Technical Requirements
 Frontend
 Next.js will be used to build the user interface with the following pages:
@@ -52,6 +52,7 @@ Define schemas for Products and Orders in Sanity.
 Third-Party APIs
 Payment Gateway: Integrate Stripe for secure payment processing.
 Shipping API: Use ShipEngine for order tracking and shipping label generation.
+
 📡 API Endpoints
 1️⃣ /api/products (GET)
 Fetches product data from Sanity CMS.
@@ -97,6 +98,7 @@ Edit
   "paymentMethodId": "pm_1GqIC8AHEMiO6EgC2LkU5bXE"
 }
 📝 Sanity Schema Documentation
+
 1️⃣ Products Schema
 js
 Copy
