@@ -1,4 +1,5 @@
-# Marketplace Builder - E-Commerce Web Application
+# Marketplace Technical Foundation - [Ecommerce]
+
 
 ## 📌 Project Overview  
 The **Marketplace Builder** is a web application built using **Next.js** and integrated with **Sanity CMS** for managing products and orders. This application allows users to browse products, add them to the cart, and complete purchases securely via **Stripe**. It also integrates with **ShipEngine** for generating shipping labels and tracking orders.
