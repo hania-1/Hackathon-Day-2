@@ -58,9 +58,6 @@ Shipping API: Use ShipEngine for order tracking and shipping label generation.
 Fetches product data from Sanity CMS.
 Example Response:
 
-json
-Copy
-Edit
 [
   {
     "id": "1",
@@ -73,9 +70,6 @@ Edit
 Generates a shipping label using ShipEngine.
 Example Request:
 
-json
-Copy
-Edit
 {
   "orderId": "12345",
   "address": {
@@ -89,9 +83,6 @@ Edit
 Processes payments via Stripe.
 Example Request:
 
-json
-Copy
-Edit
 {
   "amount": 200,
   "currency": "USD",
@@ -100,9 +91,7 @@ Edit
 📝 Sanity Schema Documentation
 
 1️⃣ Products Schema
-js
-Copy
-Edit
+
 export default {
   name: "product",
   type: "document",
@@ -116,9 +105,7 @@ export default {
   ]
 };
 2️⃣ Orders Schema
-js
-Copy
-Edit
+
 export default {
   name: "order",
   type: "document",
