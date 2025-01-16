@@ -36,6 +36,7 @@ The **Marketplace Builder** is a web application built using **Next.js** and int
     |
 [Third-Party API] --> [Shipment Tracking API]
     |
+
 [Payment Gateway]
 🛠️ Technical Requirements
 Frontend
@@ -126,54 +127,4 @@ export default {
     { name: "status", type: "string", title: "Order Status" }
   ]
 };
-🛠️ Setup Instructions
-Prerequisites:
-Node.js (v14 or later)
-Sanity CLI (for managing Sanity content)
-Stripe account for payment processing
-ShipEngine account for shipping label generation
-Installation Steps:
-Clone the repository:
 
-bash
-Copy
-Edit
-git clone https://github.com/yourusername/marketplace-builder.git
-Install dependencies:
-
-bash
-Copy
-Edit
-cd marketplace-builder
-npm install
-Set up Sanity CMS by following the instructions in the Sanity Documentation.
-
-Set up Stripe and ShipEngine accounts, and configure your API keys.
-
-Run the application:
-
-bash
-Copy
-Edit
-npm run dev
-🌟 Acknowledgments
-This project was created as part of the Marketplace Builder Hackathon 2025.
-Thanks to Sanity CMS, Stripe, and ShipEngine for providing powerful tools to build this application.
-📧 Contact
-For any questions or collaboration opportunities, feel free to reach out:
-
-Email: your-email@example.com
-GitHub: yourusername
-📝 License
-This project is licensed under the MIT License.
-
-sql
-Copy
-Edit
-
-### Instructions:
-1. Replace placeholders like `yourusername` and `your-email@example.com` with your actual details.
-2. Make sure to add the required files and dependencies to your repository.
-3. Add any setup details or additional instructions specific to your project.
-
-Let me know if you need any further changes! 😊
